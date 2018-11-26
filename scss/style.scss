@@ -11,6 +11,7 @@
 
 * {
 	box-sizing: border-box;
+	transition: all .2s ease-in-out;
 }
 
 html {
@@ -44,7 +45,7 @@ body {
 	&__title{
 		font-family: 'proxima_nova';
 		font-size: 2.4rem;
-		color: black;
+		color: #343434;
 		font-weight: bold;
 		margin: 0;
 	}
@@ -58,7 +59,12 @@ body {
 		background-color: #f67b7c;
 		padding:10px 35px;
 		border-radius: 30px;
-		outline: none;	
+		outline: none;
+		&:hover{
+			background-color: #343434;
+			color: #f43b3d;
+
+		}
 	}
 	&--border{
 		&:after{
